@@ -11,42 +11,22 @@ permalink: /
 </div>
 
 <style>
-.animated-text span {
-    display: inline-block; /* Keep spans inline */
-    transform: translateY(20px); /* Start position slightly down */
-    opacity: 0; /* Start invisible */
-    animation: slideIn 0.5s forwards; /* Animation for each letter */
+.animated-text {
+    display: inline-block; /* To allow transformation */
+    animation: slideIn 1s forwards; /* Animate the entire text */
 }
 
-/* Animation with a delay based on the index */
+/* Animation keyframes */
 @keyframes slideIn {
     0% {
-        transform: translateY(20px); /* Start position */
+        transform: translateX(-50px); /* Start from the left */
         opacity: 0; /* Start invisible */
     }
     100% {
-        transform: translateY(0); /* End position */
+        transform: translateX(0); /* End at the original position */
         opacity: 1; /* Fully visible */
     }
 }
-
-/* Adding delay to each letter's animation */
-.animated-text span:nth-child(1) { animation-delay: 0s; }
-.animated-text span:nth-child(2) { animation-delay: 0.1s; }
-.animated-text span:nth-child(3) { animation-delay: 0.2s; }
-.animated-text span:nth-child(4) { animation-delay: 0.3s; }
-.animated-text span:nth-child(5) { animation-delay: 0.4s; }
-.animated-text span:nth-child(6) { animation-delay: 0.5s; }
-.animated-text span:nth-child(7) { animation-delay: 0.6s; }
-.animated-text span:nth-child(8) { animation-delay: 0.7s; }
-.animated-text span:nth-child(9) { animation-delay: 0.8s; }
-.animated-text span:nth-child(10) { animation-delay: 0.9s; }
-.animated-text span:nth-child(11) { animation-delay: 1.0s; }
-.animated-text span:nth-child(12) { animation-delay: 1.1s; }
-.animated-text span:nth-child(13) { animation-delay: 1.2s; }
-.animated-text span:nth-child(14) { animation-delay: 1.3s; }
-.animated-text span:nth-child(15) { animation-delay: 1.4s; }
-.animated-text span:nth-child(16) { animation-delay: 1.5s; }
 </style>
 
 <br>I am a detail-focused Data Analyst with over 3 years of experience, specializing in data warehousing, process validation, and business needs analysis. I have a proven track record of understanding customer requirements and translating them into actionable insights and strategic project plans. My passion for Big Data, along with a commitment to delivering impactful results, drives my dedication to optimizing business processes and enabling data-driven decision-making.
