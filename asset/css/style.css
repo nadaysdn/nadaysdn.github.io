@@ -1,0 +1,19 @@
+/* Add this CSS to your stylesheet */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start invisible */
+        transform: translateY(20px); /* Start 20px down */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Move back to original position */
+    }
+}
+
+.animated-text {
+    animation: fadeIn 1s ease-in-out; /* Animation settings */
+    font-size: 24px; /* Custom font size */
+    font-weight: bold; /* Make text bold */
+    color: #000080; /* Custom text color (blue) */
+}
