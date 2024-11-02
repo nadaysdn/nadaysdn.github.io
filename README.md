@@ -33,4 +33,3 @@ permalink: /
 <br><br>Feel free to check out my projects and let's connect!
 
 
-{% include footer.html %}
