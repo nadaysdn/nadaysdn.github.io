@@ -21,6 +21,6 @@ nav_links:
 
 # Author info
 author:
-  name: "Nada Asri"
-  email: "nadaasriyasdana@gmail.com"
+  <p>name: {{ site.author.name }}</p>
+  <p>email: {{ site.author.email }}</p>
 
