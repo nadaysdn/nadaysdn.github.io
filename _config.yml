@@ -1,0 +1,25 @@
+title: "Data Science Analyst Portfolio"
+description: "Welcome to my portfolio! I am a data analyst dedicated to transforming complex data into actionable insights, showcasing my expertise in SQL, Python, and Data Visualization to drive impactful, data-informed decisions."
+theme: minima
+baseurl: "" # Leave this empty for GitHub Pages
+url: "https://nadaysdn.github.io" # Replace with your GitHub Pages URL
+
+# Navigation Links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Skills"
+    url: "/skills/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Experiences"
+    url: "/experiences/"
+  - title: "Education"
+    url: "/education/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Author info
+author:
+  name: "Nada Asri"
+  email: "nadaasriyasdana@gmail.com"
