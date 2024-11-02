@@ -1,0 +1,9 @@
+<footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    <p>Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+    <p>Phone: {{ site.contact.phone }}</p>
+    <p>
+        LinkedIn: <a href="{{ site.contact.linkedin }}" target="_blank">{{ site.contact.linkedin }}</a><br>
+        GitHub: <a href="{{ site.contact.github }}" target="_blank">{{ site.contact.github }}</a>
+    </p>
+</footer>
