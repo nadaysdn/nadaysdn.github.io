@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 <div style="display: flex; align-items: center;">
-    <img src="{{ '/assets/images/profile_pic1.jpg' | relative_url }}" alt="Profile Picture" style="width: 150px; height: auto; margin-right: 20px;">
+    <img src="{{ 'assets/images/profile_pic1.jpg' | relative_url }}" alt="Profile Picture" style="width: 150px; height: auto; margin-right: 20px;">
     <p>Hello! 👋
       <br> I am Nada.</p>
 </div>
