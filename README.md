@@ -5,24 +5,8 @@ permalink: /
 ---
 <div style="display: flex; align-items: center;">
     <img src="{{ '/asset/images/profile_pic1.jpg' | relative_url }}" alt="Profile Picture" style="width:150px; height:auto; border-radius: 50%;">
-    <p class="animated-text" style="font-size: 36px; color: #000080; margin-left: 10px;">
-        <span>H</span>
-        <span>e</span>
-        <span>l</span>
-        <span>l</span>
-        <span>o</span>
-        <span>!</span>
-        <span> </span>
-        <span>I</span>
-        <span> </span>
-        <span>a</span>
-        <span>m</span>
-        <span> </span>
-        <span>N</span>
-        <span>a</span>
-        <span>d</span>
-        <span>a</span>
-        <span>👋</span>
+    <p class="animated-text" style="font-size: 36px; color: #000080; font-weight: bold; margin-left: 15px;">
+        Hello! I am Nada 👋
       </p>
 </div>
 
