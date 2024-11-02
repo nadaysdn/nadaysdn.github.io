@@ -5,28 +5,64 @@ permalink: /
 ---
 <div style="display: flex; align-items: center;">
     <img src="{{ '/asset/images/profile_pic1.jpg' | relative_url }}" alt="Profile Picture" style="width:150px; height:auto; border-radius: 50%;">
-    <p class="animated-text" style="font-size: 36px; color: #000080;">Hello! 👋
-      <br> I am Nada.</p>
+    <p class="animated-text" style="font-size: 36px; color: #000080; margin-left: 10px;">
+        <span>H</span>
+        <span>e</span>
+        <span>l</span>
+        <span>l</span>
+        <span>o</span>
+        <span>!</span>
+        <span> </span>
+        <span>I</span>
+        <span> </span>
+        <span>a</span>
+        <span>m</span>
+        <span> </span>
+        <span>N</span>
+        <span>a</span>
+        <span>d</span>
+        <span>a</span>
+        <span>👋</span>
+      </p>
 </div>
 
 <style>
-.animated-text {
-    transform: translateX(-100%); /* Start from the left */
+.animated-text span {
+    display: inline-block; /* Keep spans inline */
+    transform: translateY(20px); /* Start position slightly down */
     opacity: 0; /* Start invisible */
-    animation: slideIn 1s forwards; /* Animation name and duration */
-    font-weight: bold; /* Make the text bold */
+    animation: slideIn 0.5s forwards; /* Animation for each letter */
 }
 
+/* Animation with a delay based on the index */
 @keyframes slideIn {
     0% {
-        transform: translateX(-100%); /* Start position */
+        transform: translateY(20px); /* Start position */
         opacity: 0; /* Start invisible */
     }
     100% {
-        transform: translateX(0); /* End position */
+        transform: translateY(0); /* End position */
         opacity: 1; /* Fully visible */
     }
 }
+
+/* Adding delay to each letter's animation */
+.animated-text span:nth-child(1) { animation-delay: 0s; }
+.animated-text span:nth-child(2) { animation-delay: 0.1s; }
+.animated-text span:nth-child(3) { animation-delay: 0.2s; }
+.animated-text span:nth-child(4) { animation-delay: 0.3s; }
+.animated-text span:nth-child(5) { animation-delay: 0.4s; }
+.animated-text span:nth-child(6) { animation-delay: 0.5s; }
+.animated-text span:nth-child(7) { animation-delay: 0.6s; }
+.animated-text span:nth-child(8) { animation-delay: 0.7s; }
+.animated-text span:nth-child(9) { animation-delay: 0.8s; }
+.animated-text span:nth-child(10) { animation-delay: 0.9s; }
+.animated-text span:nth-child(11) { animation-delay: 1.0s; }
+.animated-text span:nth-child(12) { animation-delay: 1.1s; }
+.animated-text span:nth-child(13) { animation-delay: 1.2s; }
+.animated-text span:nth-child(14) { animation-delay: 1.3s; }
+.animated-text span:nth-child(15) { animation-delay: 1.4s; }
+.animated-text span:nth-child(16) { animation-delay: 1.5s; }
 </style>
 
 <br>I am a detail-focused Data Analyst with over 3 years of experience, specializing in data warehousing, process validation, and business needs analysis. I have a proven track record of understanding customer requirements and translating them into actionable insights and strategic project plans. My passion for Big Data, along with a commitment to delivering impactful results, drives my dedication to optimizing business processes and enabling data-driven decision-making.
