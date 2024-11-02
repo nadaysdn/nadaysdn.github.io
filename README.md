@@ -32,4 +32,12 @@ permalink: /
 <br>I am a detail-focused Data Analyst with over 3 years of experience, specializing in data warehousing, process validation, and business needs analysis. I have a proven track record of understanding customer requirements and translating them into actionable insights and strategic project plans. My passion for Big Data, along with a commitment to delivering impactful results, drives my dedication to optimizing business processes and enabling data-driven decision-making.
 <br><br>Feel free to check out my projects and let's connect!
 
-
+<footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+    <p>Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+    <p>Phone: {{ site.contact.phone }}</p>
+    <p>
+        LinkedIn: <a href="{{ site.contact.linkedin }}" target="_blank">{{ site.contact.linkedin }}</a><br>
+        GitHub: <a href="{{ site.contact.github }}" target="_blank">{{ site.contact.github }}</a>
+    </p>
+</footer>
