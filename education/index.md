@@ -4,7 +4,6 @@ title: "Education"
 permalink: /education/
 ---
 
-## Education
 <strong>*Bandung Institute of Technology*</strong><br>
 Bachelor of Science, Astronomy
 - Achieved the Dean's List Prize for the Faculty of Mathematics and Natural Sciences with a perfect GPA of 4.00/4.00 in August 2019.
