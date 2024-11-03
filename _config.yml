@@ -19,13 +19,11 @@ nav_links:
   - title: "Contact"
     url: "/contact/"
 
-# Author info
-author:
-  name: "Nada Asri"
-  email: "nadaasriyasdana@gmail.com"
-
-# Contact info
-contact:
-  phone: "+62 812 2385 7175"
-  github: "https://github.com/nadaysdn"
-  linkedin: "https://linkedin.com/in/nadaysdn"
+footer:
+  author: "Your Name"
+  email: "your-email@example.com"
+  social_links:
+    phone: "+62 812 2385 7175"
+    github: "https://github.com/nadaysdn"
+    linkedin: "https://linkedin.com/in/nadaysdn"
+  copyright: "&copy; {{ site.time | date: '%Y' }} Nada Asri. All rights reserved."
