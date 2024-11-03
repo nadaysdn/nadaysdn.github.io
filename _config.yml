@@ -17,16 +17,14 @@ nav_links:
   - title: "Contact"
     url: "/contact/"
 
-footer:
-  content: |
-    <footer>
-      <p><strong>Author:</strong> Nada Asri</p>
-      <p><strong>Email:</strong> <a href="mailto:nadaasriyasdana@gmail.com">nadaasriyasdana@gmail.com</a></p>
-      <p><strong>Phone:</strong> <a href="https://wa.me/081223857175">+62 812 2385 7175</a></p>
-      <p>
-        <strong>Social Links:</strong>
-        <a href="https://github.com/nadaysdn" target="_blank">GitHub</a> |
-        <a href="https://linkedin.com/in/nadaysdn" target="_blank">LinkedIn</a>
-      </p>
-      <p>&copy; {{ site.time | date: '%Y' }} Nada Asri. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p><strong>Author:</strong> Nada Asri</p>
+    <p><strong>Email:</strong> <a href="mailto:nadaasriyasdana@gmail.com">nadaasriyasdana@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="https://wa.me/081223857175">+62 812 2385 7175</a></p>
+    <p>
+      <strong>Social Links:</strong>
+      <a href="https://github.com/nadaysdn" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/nadaysdn" target="_blank">LinkedIn</a>
+    </p>
+    <p>&copy; {{ site.time | date: '%Y' }} Nada Asri. All rights reserved.</p>
+  </footer>
