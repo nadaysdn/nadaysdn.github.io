@@ -17,7 +17,7 @@ nav_links:
   - title: "Contact"
     url: "/contact/"
 
-<footer>
+
 author:
   name: "Nada Asri"
   email: "nadaasriyasdana@gmail.com"
@@ -26,4 +26,3 @@ contact:
   phone: "+62 812 2385 7175"
   github: "https://github.com/nadaysdn"
   linkedin: "https://linkedin.com/in/nadaysdn"
-</footer>
