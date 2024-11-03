@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: "/"
 ---
 <div style="display: flex; align-items: center;">
     <img src="{{ '/asset/images/profile_pic1.jpg' | relative_url }}" alt="Profile Picture" style="width:150px; height:auto; border-radius: 50%;">
