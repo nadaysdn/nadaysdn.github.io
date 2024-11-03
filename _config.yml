@@ -20,6 +20,8 @@ nav_links:
   author:
     name: "Nada Asri"
     email: "nadaasriyasdana@gmail.com"
-    phone: "+62 812 2385 7175" # Optional
+
+  contact:
+    phone: "+62 812 2385 7175"
     github: "https://github.com/nadaysdn"
     linkedin: "https://linkedin.com/in/nadaysdn"
